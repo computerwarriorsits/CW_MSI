@@ -64,7 +64,7 @@ if (errRET = 0) then                                        ''NO ERRORS DURING I
   objLOG.write vbnewline & vbnewline & now & " - STARTING PMESERVICE_INSTALL" & vbnewline
   ''AUTOMATIC UPDATE, PMESERVICE_INSTALL.VBS, REF #2 , REF #69 , REF #68 , FIXES #4
   ''DOWNLOAD CHKAU.VBS SCRIPT, REF #2 , REF #69 , REF #68
-  call FILEDL("https://raw.githubusercontent.com/CW-Khristos/scripts/master/chkAU.vbs", "C:\IT\Scripts", "chkAU.vbs")
+  call FILEDL("https://raw.githubusercontent.com/computerwarriorsits/scripts/master/chkAU.vbs", "C:\IT\Scripts", "chkAU.vbs")
   ''EXECUTE CHKAU.VBS SCRIPT, REF #69
   objOUT.write vbnewline & now & vbtab & vbtab & " - CHECKING FOR UPDATE : PMESERVICE_INSTALL : " & strVER
   objLOG.write vbnewline & now & vbtab & vbtab & " - CHECKING FOR UPDATE : PMESERVICE_INSTALL : " & strVER
@@ -89,7 +89,7 @@ if (errRET = 0) then                                        ''NO ERRORS DURING I
     end if
     wscript.sleep 5000
     ''DOWNLOAD AND RUN 'CCLUTTERV2.VBS' WHICH INCLUDES NABLEPATCHCACHE AND NABLEUPDATECACHE DIRECTORIES
-    'call FILEDL("https://raw.githubusercontent.com/CW-Khristos/scripts/dev/CClutterV2.vbs", "C:\IT\Scripts", "CClutterV2.vbs")
+    'call FILEDL("https://raw.githubusercontent.com/computerwarriorsits/scripts/dev/CClutterV2.vbs", "C:\IT\Scripts", "CClutterV2.vbs")
     'call HOOK("cscript.exe " & chr(34) & "C:\IT\Scripts\CClutterV2.vbs" & chr(34) & " " & chr(34) & "true" & chr(34))
     ''REMOVE POSSIBLE TRASHED 'ARCHIVES'
     if (objFSO.fileexists("%ProgramData%\SolarWinds MSP\PME\Archives")) then
@@ -126,11 +126,11 @@ if (errRET = 0) then                                        ''NO ERRORS DURING I
     ''DOWNLOAD PME SERVICE SUPPORTING FILES
     objOUT.write vbnewline & vbnewline & now & vbtab & " - DOWNLOADING PME SERVICE SUPPORTING FILES" & vbnewline
     objLOG.write vbnewline & vbnewline & now & vbtab & " - DOWNLOADING PME SERVICE SUPPORTING FILES" & vbnewline
-    call FILEDL("https://raw.githubusercontent.com/CW-Khristos/CW_MSI/master/PMEService.zip", "C:\IT", "PMEService.zip")
+    call FILEDL("https://raw.githubusercontent.com/computerwarriorsits/CW_MSI/master/PMEService.zip", "C:\IT", "PMEService.zip")
     wscript.sleep 5000
     ''DOWNLOAD SUPPORTING FILES
     if (not objFSO.fileexists("C:\IT\PMEService.zip")) then
-      call FILEDL("https://raw.githubusercontent.com/CW-Khristos/CW_MSI/master/PMEService.zip", "C:\IT", "PMEService.zip")
+      call FILEDL("https://raw.githubusercontent.com/computerwarriorsits/CW_MSI/master/PMEService.zip", "C:\IT", "PMEService.zip")
       wscript.sleep 10000
     end if
     if (objFSO.fileexists("C:\IT\PMEService.zip")) then
