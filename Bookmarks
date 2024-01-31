@@ -1,0 +1,146 @@
+{
+   "checksum": "6adf5faf0a9657bfa0aadaf52908737a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13351121388095519",
+            "date_last_used": "0",
+            "guid": "f0604349-e8c3-4e4f-bc37-a24e4f0d6173",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Autotask",
+            "type": "url",
+            "url": "https://ww3.autotask.net/Mvc/Framework/Authentication.mvc/Authenticate?ReturnUrl=%2fMvc%2fFramework%2fNavigation.mvc%2fLanding"
+         }, {
+            "date_added": "13351121301046801",
+            "date_last_used": "0",
+            "guid": "109dbc00-63bd-4998-9c50-cc1abc7f4784",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "N-central",
+            "type": "url",
+            "url": "https://ncentral.cwitsupport.com/login"
+         }, {
+            "date_added": "13351121471088390",
+            "date_last_used": "0",
+            "guid": "989537a9-f27e-42ee-a35d-90363dda7873",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "IT Glue",
+            "type": "url",
+            "url": "https://cwitsupport.itglue.com/"
+         }, {
+            "date_added": "13351121542876237",
+            "date_last_used": "0",
+            "guid": "dde9d262-22ee-493a-b2ab-cfa28041a974",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CC Client",
+            "type": "url",
+            "url": "https://voip.cwitsupport.com/cc/the-computer-warriors-it-support/"
+         }, {
+            "date_added": "13351121443129216",
+            "date_last_used": "0",
+            "guid": "d1485ddf-8b36-49ed-8cc1-e5ea8a74a328",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "SharePoint",
+            "type": "url",
+            "url": "https://computerwarriors.sharepoint.com/sites/BizClass/Shared%20Documents/Forms/AllItems.aspx"
+         }, {
+            "date_added": "13351122520432447",
+            "date_last_used": "0",
+            "guid": "4d2d3608-7d67-413b-bad4-805c6226efb9",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Dark Web ID",
+            "type": "url",
+            "url": "https://secure.darkwebid.com/user/login"
+         }, {
+            "date_added": "13351122553510510",
+            "date_last_used": "0",
+            "guid": "62562ee7-7e14-48a0-9275-649cc5544e94",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Datto",
+            "type": "url",
+            "url": "https://auth.datto.com/login"
+         }, {
+            "date_added": "13351122902020401",
+            "date_last_used": "0",
+            "guid": "49d0d60b-d503-480d-82d1-d6bfe2561f14",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Nerdio",
+            "type": "url",
+            "url": "https://web-admin-portal-ftfsmagnrinlk.azurewebsites.net/accounts"
+         }, {
+            "date_added": "13351122234875295",
+            "date_last_used": "0",
+            "guid": "66a675fb-074a-4d59-b646-b16eb8a2cf6f",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "KaseyaOne",
+            "type": "url",
+            "url": "https://one.kaseya.com/login?companyName=CW%20IT%20Support"
+         }, {
+            "date_added": "13351121521231026",
+            "date_last_used": "0",
+            "guid": "1dc8e67d-8591-4cec-99cc-4f579192ec4b",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Metronome",
+            "type": "url",
+            "url": "https://metronomesoftware.com/"
+         } ],
+         "date_added": "13351121259839105",
+         "date_last_used": "0",
+         "date_modified": "13351122914268481",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13351121259839107",
+         "date_last_used": "0",
+         "date_modified": "13351121301046801",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13351121259839109",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
