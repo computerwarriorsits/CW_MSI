@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><InstallationData>
+    <ActivationKey/>
+    <Customer>
+        <ID>449</ID>
+        <Name>a53e7a188bcdb1f9aff68085954bfff68804bd493ee642aae9db952ce18f5744</Name>
+    </Customer>
+    <RegistrationToken>ca5d7f43-97b1-be03-8991-284a79048446</RegistrationToken>
+    <Server>
+        <URL>https://ncentral.cwitsupport.com:443</URL>
+    </Server>
+    <Proxy>
+        <URL/>
+        <Port/>
+    </Proxy>
+</InstallationData>
